@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800");
+#navbar #nav {
+    background-color: #193559 !important;
+    font-size: 0.8rem;
+}
+
+#navbar .nav a {
+    color: #fff !important;
+    font-family: 'Montserrat';
+}
+
+#navbar .nav a:hover {
+    color: #fff !important;
+}
+
+#navbar .nav span {
+    width: 0.4rem;
+}
+
+#navbar .navbar {
+    background-color: #fff !important;
+}
+
+#navbar .navbar img {
+    width: 10rem;
+    height: auto;
+}
+
+#navbar .navbar a {
+    color: #193559 !important;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+#navbar .navbar a:hover {
+    color: #517ea6 !important;
+}
