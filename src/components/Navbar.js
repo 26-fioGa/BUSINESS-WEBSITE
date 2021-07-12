@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <>
             <section id="navbar">
-                <ul class="nav justify-content-end pr-5" id="nav">
+                <ul class="nav justify-content-end pr-3" id="nav">
                     <li class="nav-item">
                         <a class="nav-link" href="#"> <i className="fa fa-envelope"/> proyintereirl@gmail.com</a>
                     </li>
@@ -24,16 +24,16 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                         <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
                             <li className="nav-item active">
-                                <a className="nav-link px-5" href="#">INICIO</a>
+                                <a className="nav-link px-3" href="#">INICIO</a>
                             </li>
                             <li className="nav-item active">
-                                <a className="nav-link px-5" href="#">NOSOTROS</a>
+                                <a className="nav-link px-3" href="#">NOSOTROS</a>
                             </li>
                             <li className="nav-item active">
-                                <a className="nav-link px-5" href="#">SERVICIOS</a>
+                                <a className="nav-link px-3" href="#">SERVICIOS</a>
                             </li>
                             <li className="nav-item active">
-                                <a className="nav-link px-5" href="#">CONTÁCTANOS</a>
+                                <a className="nav-link px-3" href="#">CONTÁCTANOS</a>
                             </li>
                         </ul>
                     </div>

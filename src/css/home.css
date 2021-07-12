@@ -1,0 +1,60 @@
+#home {
+    position: relative;
+}
+
+#home img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#home a {
+    z-index: 100 !important;
+}
+
+#home .carousel-inner::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 50 !important;
+    background: rgba(25, 59, 89, 0.75);
+}
+
+#home .carousel-caption {
+    z-index: 100 !important;
+    transform: translateY(-15%);
+}
+
+#home .carousel-caption .home1 {
+    width: 400px;
+    height: auto;
+    transform: translateX(-20%);
+}
+
+#home .carousel-caption .home2 {
+    width: 400px;
+    height: auto;
+    transform: translateX(-10%);
+    transform: translateY(10%);
+}
+
+#home .carousel-caption h1 {
+    font-size: 3rem;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    padding-top: 5rem;
+}
+
+#home .carousel-caption .btn {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 50px;
+    color: #193559;
+    font-size: 1.2rem;
+}
+
+#home .carousel-caption .btn:hover {
+    background-color: #193559;
+    color: #fff;
+}
