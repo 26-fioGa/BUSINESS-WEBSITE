@@ -6,17 +6,17 @@ const Footer = () => {
     return (
         <div id="footer">
             <footer className="container-fluid">
-                <div className="row">
-                    <div className="col-lg-4 text-center pt-5 pb-5 logo">
+                <div className="row pt-2 pb-2">
+                    <div className="col-lg-4 pt-3 pb-3 text-center logo">
                         <img src={logo} alt="logo" />
                     </div>
-                    <div className="col-lg-4 text-left pt-5 pb-5 canals">
+                    <div className="col-lg-4 pt-3 pb-3 text-left canals">
                         <a class="nav-link"><i className="fa fa-phone"/> 954 779 870</a>
                         <a class="nav-link"><i className="fa fa-envelope"/> proyintereirl@gmail.com</a>
                         <a class="nav-link"><i className="fa fa-map-marker-alt"/> San Gregorio 328, Urb.San Diego, SMP, Lima</a>
                     </div>
 
-                    <div className="col-lg-4 text-center pt-5 pb-5 links">
+                    <div className="col-lg-4 pt-3 pb-3 text-center links">
                         <ul>
                             <li><a href="#">INICIO</a></li>
                             <li><a href="#">NOSOTROS</a></li>
