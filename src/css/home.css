@@ -23,7 +23,7 @@
 
 #home .carousel-caption {
     z-index: 100 !important;
-    transform: translateY(-20%);
+    transform: translateY(-30%);
 }
 
 #home .carousel-caption .home1 {

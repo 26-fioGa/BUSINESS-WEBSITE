@@ -1,0 +1,44 @@
+#nosotros {
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-family: 'Montserrat';
+}
+
+#nosotros .title {
+    border-bottom: 1px solid #eee;
+    color: #193559;
+}
+
+#nosotros .misVis {
+    margin: auto !important;
+}
+
+#nosotros .card {
+    border-radius: 20px;
+    border-color: #e9eff5;
+    box-shadow: 10px 11px 17px -5px rgba(25, 53, 89, 0.52);
+    -webkit-box-shadow: 10px 11px 17px -5px rgba(25, 53, 89, 0.52);
+    -moz-box-shadow: 10px 11px 17px -5px rgba(25, 53, 89, 0.52);
+}
+
+
+/* #nosotros .card:hover {
+    background: rgb(207, 174, 238);
+    background: linear-gradient(56deg, rgba(207, 174, 238, 1) 3%, rgba(148, 204, 233, 1) 91%);
+    color: #fff !important;
+} */
+
+#nosotros .card img {
+    border-radius: 20px;
+}
+
+#nosotros .card h5 {
+    color: #193559;
+    font-weight: 600;
+}
+
+#nosotros .card p {
+    color: #4b4c4d;
+    font-size: 0.9rem;
+}
