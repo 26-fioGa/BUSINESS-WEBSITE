@@ -23,20 +23,20 @@
 
 #home .carousel-caption {
     z-index: 100 !important;
-    transform: translateY(-15%);
+    transform: translateY(-20%);
 }
 
 #home .carousel-caption .home1 {
     width: 400px;
     height: auto;
-    transform: translateX(-20%);
+    transform: translateX(-10%);
 }
 
 #home .carousel-caption .home2 {
     width: 400px;
     height: auto;
     transform: translateX(-10%);
-    transform: translateY(10%);
+    transform: translateY(20%);
 }
 
 #home .carousel-caption h1 {
@@ -51,7 +51,8 @@
     height: 3rem;
     border-radius: 50px;
     color: #193559;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 #home .carousel-caption .btn:hover {

@@ -1,0 +1,43 @@
+#footer {
+    background-color: #fff;
+    font-family: 'Montserrat';
+    font-size: 0.8rem;
+}
+
+#footer img {
+    width: 10rem;
+    height: auto;
+    margin-top: 3rem;
+}
+
+#footer .canals {
+    text-align: center;
+    margin-top: 0.8rem;
+}
+
+#footer .canals a {
+    color: #193559 !important;
+    padding-left: 20%;
+}
+
+#footer .links ul {
+    list-style: none;
+}
+
+#footer .links li {
+    line-height: 2rem;
+}
+
+#footer .links li a {
+    color: #193559 !important;
+    text-decoration: none;
+}
+
+#footer .links li a:hover {
+    color: #517ea6 !important;
+}
+
+#footer #close {
+    height: 5vh;
+    background-color: #193559;
+}
