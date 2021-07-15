@@ -6,7 +6,7 @@ const Nosotros = () => {
     return (
         <div id="nosotros">
             <div className="container-fluid">
-                <div className="row m-4">
+                <div className="row pl-5 pr-5">
                     <div className="col-lg-12 text-center pb-4 title">
                         <h2>NOSOTROS</h2>
                     </div>
@@ -26,18 +26,18 @@ const Nosotros = () => {
                         </div>
                     </div>
                     <div className="col-lg-8  misVis mt-5">
-                        <div class="card mb-3">
-                            <div class="card-body">
-                                <h5 class="card-title pb-2">Misión</h5>
+                        <div className="card mb-3">
+                            <div className="card-body">
+                                <h5 className="card-title pb-2">Misión</h5>
                                 <hr />
-                                <p class="card-text pt-2">Optimizar el valor de tu proyecto asegurando tu rentabilidad. </p>
+                                <p className="card-text pt-2">Optimizar el valor de tu proyecto asegurando tu rentabilidad. </p>
                             </div>
                         </div>
-                        <div class="card mb-3 mt-4">
-                            <div class="card-body">
-                                <h5 class="card-title pb-2">Visión</h5>
+                        <div className="card mb-3 mt-4">
+                            <div className="card-body">
+                                <h5 className="card-title pb-2">Visión</h5>
                                 <hr />
-                                <p class="card-text pt-2">Gestionar tus proyectos cumpliendo los estándares dinámicos a lo largo de tu prospectiva de negocios.</p>
+                                <p className="card-text pt-2">Gestionar tus proyectos cumpliendo los estándares dinámicos a lo largo de tu prospectiva de negocios.</p>
                             </div>
                         </div>
                     </div>
