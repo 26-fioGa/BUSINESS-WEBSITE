@@ -4,6 +4,8 @@ import pozo from '../images/pozo.png'
 import limpieza from '../images/limpieza.png'
 import building from '../images/building.png'
 import building2 from '../images/building2.png'
+import mineria from '../images/mineria.svg'
+import inmobiliaria from '../images/inmobiliaria.svg'
 
 const Servicios = () => {
     return (
@@ -49,7 +51,22 @@ const Servicios = () => {
                         integrar los planes de contingencia y variabilidad de la carga de trabajo, 
                         cumpliendo con las políticas de seguridad, salud y medio ambiente.</p>
                         </div>
-                        
+                        <div class="card-deck pl-5 pr-5">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src={mineria} alt="logoMinera" />
+                                    <h5 class="card-title">Minería</h5>
+                                    <a href="#" class="btn btn-primary">Ver más</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src={inmobiliaria} alt="logoInmo" />
+                                    <h5 class="card-title">Inmobiliaria</h5>
+                                    <a href="#" class="btn btn-primary">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

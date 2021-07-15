@@ -32,10 +32,11 @@ const Home = () => {
                             <img className="home2" src={home2} alt="" />
                             <img className="home1" src={home1} alt="" />
                         </div>
-                        <div className="col-lg-6 col-md-10 text-right d-none d-md-block">
-                            <h1>PROYECTOS DE INGENIERÍA PARA MINERÍA E INMOBILIARIA</h1>
-                            <br />
-                            <button className="btn" href="#">CONOCE MÁS</button>
+                        <div className="col-lg-6 text-right">
+                            <div className="titulo">
+                                <h1>PROYECTOS DE INGENIERÍA PARA MINERÍA E INMOBILIARIA</h1>
+                                <button className="btn" href="#">CONOCE MÁS</button>
+                            </div>                            
                         </div>
                     </div>
                     

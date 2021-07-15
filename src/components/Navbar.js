@@ -9,11 +9,11 @@ const Navbar = () => {
             <section id="navbar">
                 <ul class="nav justify-content-end pr-3" id="nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#"> <i className="fa fa-envelope"/> proyintereirl@gmail.com</a>
+                        <a class="nav-link"> <i className="fa fa-envelope"/> proyintereirl@gmail.com</a>
                     </li>
                     <span></span>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"> <i className="fa fa-phone"/> 954 779 870</a>
+                        <a class="nav-link"> <i className="fa fa-phone"/> 954 779 870</a>
                     </li>
                 </ul>
                 <nav className="navbar navbar-expand-lg navbar-light">

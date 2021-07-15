@@ -50,12 +50,84 @@
     width: 10rem;
     height: 3rem;
     border-radius: 50px;
+    background: #fff;
     color: #193559;
     font-size: 1rem;
     font-weight: 500;
 }
 
 #home .carousel-caption .btn:hover {
-    background-color: #193559;
+    background-color: #5f8cb4;
     color: #fff;
+}
+
+@media only screen and (min-width: 200px) {
+    #home .carousel-caption {
+        z-index: 100 !important;
+    }
+    #home .titulo {
+        transform: translateY(35%);
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    #home .carousel-caption h1 {
+        font-size: 1.2rem;
+        font-family: 'Montserrat';
+        font-weight: 500;
+    }
+    #home .carousel-caption .btn {
+        width: 8rem;
+        height: 2.4rem;
+        border-radius: 50px;
+        color: #193559;
+        font-size: 0.7rem;
+        font-weight: 500;
+        letter-spacing: 0.08rem;
+    }
+}
+
+@media only screen and (min-width: 520px) {
+    #home .carousel-caption {
+        z-index: 100 !important;
+    }
+    #home .titulo {
+        transform: translateY(20%);
+    }
+    #home .carousel-caption h1 {
+        font-size: 1.5rem;
+        font-family: 'Montserrat';
+        font-weight: 500;
+    }
+    #home .carousel-caption .btn {
+        width: 8rem;
+        height: 2.4rem;
+        border-radius: 50px;
+        color: #193559;
+        font-size: 0.7rem;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    #home .carousel-caption {
+        z-index: 100 !important;
+        transform: translateY(-30%);
+    }
+    #home .titulo {
+        transform: translateY(-2%);
+    }
+    #home .carousel-caption h1 {
+        font-size: 3rem;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        padding-top: 5rem;
+    }
+    #home .carousel-caption .btn {
+        width: 10rem;
+        height: 3rem;
+        border-radius: 50px;
+        color: #193559;
+        font-size: 1rem;
+        font-weight: 600;
+    }
 }

@@ -6,6 +6,10 @@
     background: #193559;
 }
 
+#servicios .carousel {
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.65);
+}
+
 #servicios .title {
     border-bottom: 1px solid rgb(218, 218, 218);
     color: #fff;
@@ -17,10 +21,65 @@
 
 #servicios .desc {
     padding: 2rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
     font-size: 0.9rem;
-    background: #F2F2F2;
+    background: #fff;
     line-height: 1.6rem;
-    box-shadow: 10px 11px 17px -5px rgba(226, 224, 224, 0.52);
-    -webkit-box-shadow: 10px 11px 17px -5px rgba(226, 224, 224, 0.52);
-    -moz-box-shadow: 10px 11px 17px -5px rgba(226, 224, 224, 0.52);
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+#servicios .card-deck {
+    transform: translateY(-20%);
+}
+
+#servicios .card {
+    background: #193559;
+    color: #fff;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+}
+
+#servicios .card h5 {
+    padding-top: 1rem;
+    font-size: 1.2rem;
+}
+
+#servicios .card img {
+    width: 2rem;
+    height: auto;
+}
+
+#servicios .card a {
+    background: #fff;
+    color: #193559;
+    border-color: #fff;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+#servicios .card a:hover {
+    background: #5f8cb4;
+    border-color: #5f8cb4;
+    color: #fff;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 725px) {
+    #servicios .card-deck {
+        transform: translateY(-10%);
+    }
+    #servicios .card h5 {
+        padding-top: 1rem;
+        font-size: 1rem;
+    }
+    #servicios .card img {
+        width: 1.5rem;
+        height: auto;
+    }
+    #servicios .desc {
+        padding: 1.5rem;
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+    }
 }
