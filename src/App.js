@@ -1,7 +1,8 @@
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Nosotros from './pages/Nosotros';
-import Servicios from './pages/Servicios'
+import Servicios from './pages/Servicios';
+import Contacto from './pages/Contacto';
 import Footer from './components/Footer';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <Nosotros />
       <Servicios />
+      <Contacto />
       <Footer />
     </div>
   );

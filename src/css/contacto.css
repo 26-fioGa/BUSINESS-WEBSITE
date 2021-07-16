@@ -1,0 +1,88 @@
+#contacto {
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-family: 'Montserrat';
+}
+
+#contacto .canalColumn {
+    margin: auto !important;
+}
+
+#contacto .title {
+    border-bottom: 1px solid #eee;
+    color: #193559;
+}
+
+#contacto .card {
+    border-radius: 20px;
+    /* border-color: #e9eff5; */
+    box-shadow: 10px 11px 17px -5px rgba(25, 53, 89, 0.52);
+    -webkit-box-shadow: 10px 11px 17px -5px rgba(25, 53, 89, 0.52);
+    -moz-box-shadow: 10px 11px 17px -5px rgba(25, 53, 89, 0.52);
+    /* color: #4b4c4d; */
+    font-size: 0.9rem;
+}
+
+#contacto .canals {
+    background: #193559;
+    color: #fff;
+    border-color: #193559;
+}
+
+#contacto .formulario {
+    color: #4b4c4d;
+    border-color: #f2f2f2;
+    background: #fff;
+}
+
+#contacto .formulario .form-group {
+    margin-bottom: 2rem;
+}
+
+#contacto .formulario .form-group textarea {
+    height: 8rem;
+    background: #f3f2f2 !important;
+    border-radius: 20px !important;
+    font-size: 0.9rem;
+}
+
+#contacto .formulario .form-group input {
+    background: #f3f2f2 !important;
+    border-radius: 20px !important;
+    font-size: 0.9rem;
+    height: 3rem;
+}
+
+#contacto .formulario .btn {
+    background-color: #193559 !important;
+    border-color: #193559 !important;
+    border-radius: 50px !important;
+    font-weight: 500;
+    width: 6rem !important;
+}
+
+#contacto .formulario .btn:hover {
+    background-color: #517ea6 !important;
+    border-color: #517ea6 !important;
+}
+
+#contacto .canals i {
+    font-size: 1.2rem;
+}
+
+#contacto .card .nav-link {
+    margin: 0 !important;
+    padding: 1.2rem 0.5rem !important;
+}
+
+#contacto .contenedor-mapa {
+    height: 15rem;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#contacto .mapa {
+    height: 100%;
+}
