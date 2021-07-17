@@ -4,6 +4,7 @@ import Nosotros from './pages/Nosotros';
 import Servicios from './pages/Servicios';
 import Contacto from './pages/Contacto';
 import Footer from './components/Footer';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
 function App() {
   return (
@@ -15,6 +16,13 @@ function App() {
       <Contacto />
       <Footer />
     </div>
+
+    // <Router>
+    //   <Switch>
+    //     <Route path="/home" component={Landing} />
+    //     <Route path="/login" component={LoginPage} />
+    //   </Switch>
+    // </Router>
   );
 }
 

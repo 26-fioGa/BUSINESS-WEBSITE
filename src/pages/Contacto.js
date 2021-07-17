@@ -15,7 +15,7 @@ const Contacto = () => {
                     </div>
                     
                 </div>
-                <div className="row m-3 pl-3 pr-3">
+                <div className="row pt-4 m-3 pl-3 pr-3">
                     <div className="col-lg-4 mt-3 mb-4 canalColumn">
                         <div className="card canals">
                             <div className="card-body">

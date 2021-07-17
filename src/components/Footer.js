@@ -18,10 +18,10 @@ const Footer = () => {
 
                     <div className="col-lg-4 pt-3 pb-3 text-center links">
                         <ul>
-                            <li><a href="#">INICIO</a></li>
-                            <li><a href="#">NOSOTROS</a></li>
-                            <li><a href="#">SERVICIO</a></li>
-                            <li><a href="#">CONTÁCTANOS</a></li>
+                            <li><a href="#home">INICIO</a></li>
+                            <li><a href="#nosotros">NOSOTROS</a></li>
+                            <li><a href="#servicios">SERVICIO</a></li>
+                            <li><a href="#contacto">CONTÁCTANOS</a></li>
                         </ul>
                     </div>
                 </div>

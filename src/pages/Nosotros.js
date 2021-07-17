@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/nosotros.css'
 import objetivos from '../images/objetivos.png'
+import business from '../images/business.svg'
 
 const Nosotros = () => {
     return (
@@ -28,6 +29,7 @@ const Nosotros = () => {
                     <div className="col-lg-8  misVis mt-5">
                         <div className="card mb-3">
                             <div className="card-body">
+                                <img className="reference" src={business} alt="mision image" />
                                 <h5 className="card-title pb-2">Misión</h5>
                                 <hr />
                                 <p className="card-text pt-2">Optimizar el valor de tu proyecto asegurando tu rentabilidad. </p>
@@ -35,6 +37,7 @@ const Nosotros = () => {
                         </div>
                         <div className="card mb-3 mt-4">
                             <div className="card-body">
+                                <img className="reference" src={business} alt="vision image" />
                                 <h5 className="card-title pb-2">Visión</h5>
                                 <hr />
                                 <p className="card-text pt-2">Gestionar tus proyectos cumpliendo los estándares dinámicos a lo largo de tu prospectiva de negocios.</p>
