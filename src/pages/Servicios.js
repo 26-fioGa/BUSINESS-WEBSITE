@@ -51,19 +51,19 @@ const Servicios = () => {
                         integrar los planes de contingencia y variabilidad de la carga de trabajo, 
                         cumpliendo con las políticas de seguridad, salud y medio ambiente.</p>
                         </div>
-                        <div class="card-deck pl-5 pr-5">
-                            <div class="card">
-                                <div class="card-body">
+                        <div className="card-deck pl-5 pr-5">
+                            <div className="card">
+                                <div className="card-body">
                                     <img src={mineria} alt="logoMinera" />
-                                    <h5 class="card-title">Minería</h5>
-                                    <a href="#" class="btn btn-primary">Ver más</a>
+                                    <h5 className="card-title">Minería</h5>
+                                    <a href="/mineria" className="btn btn-primary">Ver más</a>
                                 </div>
                             </div>
-                            <div class="card">
-                                <div class="card-body">
+                            <div className="card">
+                                <div className="card-body">
                                     <img src={inmobiliaria} alt="logoInmo" />
-                                    <h5 class="card-title">Inmobiliaria</h5>
-                                    <a href="#" class="btn btn-primary">Ver más</a>
+                                    <h5 className="card-title">Inmobiliaria</h5>
+                                    <a href="/inmobiliaria" className="btn btn-primary">Ver más</a>
                                 </div>
                             </div>
                         </div>

@@ -65,6 +65,7 @@
 #contacto .formulario .btn:hover {
     background-color: #517ea6 !important;
     border-color: #517ea6 !important;
+    transform: translateY(-2px);
 }
 
 #contacto .canals i {

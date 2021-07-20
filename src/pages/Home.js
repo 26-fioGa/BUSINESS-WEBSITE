@@ -35,7 +35,7 @@ const Home = () => {
                         <div className="col-lg-6 text-right">
                             <div className="titulo">
                                 <h1>PROYECTOS DE INGENIERÍA PARA MINERÍA E INMOBILIARIA</h1>
-                                <button className="btn" href="#">CONOCE MÁS</button>
+                                <a className="btn" href="#nosotros">CONOCE MÁS</a>
                             </div>                            
                         </div>
                     </div>
