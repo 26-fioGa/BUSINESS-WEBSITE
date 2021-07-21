@@ -8,7 +8,6 @@ function App() {
     <>
       <Router>
         <Switch>
-        
           <Route exact path="/" component={Landing} />
           <Route path="/mineria" component={Mineria} />
           <Route path="/inmobiliaria" component={Inmobiliaria} />

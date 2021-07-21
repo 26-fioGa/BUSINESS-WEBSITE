@@ -24,16 +24,16 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                         <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
                             <li className="nav-item active">
-                                <a className="nav-link px-3" href="#home">INICIO</a>
+                                <a className="nav-link px-3" href="https://proyinter.herokuapp.com/#home">INICIO</a>
                             </li>
                             <li className="nav-item active">
-                                <a className="nav-link px-3" href="#nosotros">NOSOTROS</a>
+                                <a className="nav-link px-3" href="https://proyinter.herokuapp.com/#nosotros">NOSOTROS</a>
                             </li>
                             <li className="nav-item active">
-                                <a className="nav-link px-3" href="#servicios">SERVICIOS</a>
+                                <a className="nav-link px-3" href="https://proyinter.herokuapp.com/#servicios">SERVICIOS</a>
                             </li>
                             <li className="nav-item active">
-                                <a className="nav-link px-3" href="#contacto">CONTÁCTANOS</a>
+                                <a className="nav-link px-3" href="https://proyinter.herokuapp.com/#contacto">CONTÁCTANOS</a>
                             </li>
                         </ul>
                     </div>

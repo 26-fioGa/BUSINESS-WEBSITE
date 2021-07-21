@@ -24,7 +24,7 @@ const Mineria = () => {
                         <div className="col-lg-6 text-left pt-2 pl-4 pr-4 services">
                             <p>Servicios de mantenimiento o mejora de infraestructura para diversos proyectos o campamentos mineros, tales como:</p>
                             <ul>
-                                <li>Implementación e insalación de kits de emergencia.</li>
+                                <li>Implementación e instalación de kits de emergencia.</li>
                                 <li>Instalación de estantes para organización de herramientas y demás.</li>
                                 <li>Mantenimiento de equipos, bombas peristáticas, bombas electrónicas, etc.</li>
                                 <li>Construcción de infraestructura como paredes para necesidades determinadas.</li>
