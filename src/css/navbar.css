@@ -45,3 +45,16 @@
 #navbar .navbar li:hover {
     transform: translateY(-2px);
 }
+
+#navbar .dropdown-menu {
+    border-color: #fff;
+}
+
+#navbar .dropdown-item {
+    color: #193559 !important;
+}
+
+#navbar .dropdown-item:hover {
+    background-color: #193559 !important;
+    color: #fff !important;
+}

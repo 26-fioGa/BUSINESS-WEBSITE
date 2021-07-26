@@ -9,7 +9,20 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 100%;
+}
+
+#mineria .carousel-inner::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 50 !important;
+    background: rgba(25, 59, 89, 0.4);
+}
+
+#mineria .carousel-caption {
+    z-index: 100 !important;
 }
 
 #mineria .container-fluid {
@@ -24,4 +37,28 @@
 #mineria .services {
     margin: auto !important;
     border-left: 0.5px solid #f2f2f2;
+}
+
+@media only screen and (min-width: 200px) {
+    #mineria .carousel-caption h1 {
+        letter-spacing: 0.5rem;
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 520px) {
+    #mineria .carousel-caption h1 {
+        letter-spacing: 0.8rem;
+        font-weight: 500;
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    #mineria .carousel-caption h1 {
+        letter-spacing: 1.8rem;
+        font-weight: 600;
+        font-size: 2.5rem;
+    }
 }

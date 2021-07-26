@@ -20,7 +20,7 @@ const Footer = () => {
                         <ul>
                             <li><a href="https://proyinter.herokuapp.com/#home">INICIO</a></li>
                             <li><a href="https://proyinter.herokuapp.com/#nosotros">NOSOTROS</a></li>
-                            <li><a href="https://proyinter.herokuapp.com/#servicios">SERVICIO</a></li>
+                            <li><a href="https://proyinter.herokuapp.com/#servicios">SERVICIOS</a></li>
                             <li><a href="https://proyinter.herokuapp.com/#contacto">CONTÁCTANOS</a></li>
                         </ul>
                     </div>

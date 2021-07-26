@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../../components/Navbar.js'
 import Footer from '../../components/Footer.js'
 import '../../css/mineria.css'
-import MineriaVector from '../../images/mineriaVector4.png'
+import mineriaFondo from '../../images/mineriaFondo.png'
 import mineriaService from '../../images/mineriaService.png'
 import mineriaService2 from '../../images/mineriaService2.png'
 
@@ -15,8 +15,11 @@ const Mineria = () => {
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="carouselImg" src={MineriaVector} alt="First slide"/>
+                            <img class="carouselImg" src={mineriaFondo} alt="First slide"/>
                         </div>
+                    </div>
+                    <div className="carousel-caption">
+                        <h1>MINERÍA</h1>
                     </div>
                 </div>
                 <div className="container-fluid pb-5 pt-5">

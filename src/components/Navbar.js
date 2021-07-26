@@ -29,8 +29,15 @@ const Navbar = () => {
                             <li className="nav-item active">
                                 <a className="nav-link px-3" href="https://proyinter.herokuapp.com/#nosotros">NOSOTROS</a>
                             </li>
-                            <li className="nav-item active">
-                                <a className="nav-link px-3" href="https://proyinter.herokuapp.com/#servicios">SERVICIOS</a>
+                            <li className="nav-item dropdown">
+                                <a className="nav-link dropdown-toggle dropdown-toggle-split px-3" href="https://proyinter.herokuapp.com/#servicios" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                SERVICIOS
+                                </a>
+                                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a className="dropdown-item" href="https://proyinter.herokuapp.com/#servicios">General</a>
+                                    <a className="dropdown-item" href="/mineria">Minería</a>
+                                    <a className="dropdown-item" href="/inmobiliaria">Inmobiliaria</a>
+                                </div>
                             </li>
                             <li className="nav-item active">
                                 <a className="nav-link px-3" href="https://proyinter.herokuapp.com/#contacto">CONTÁCTANOS</a>
