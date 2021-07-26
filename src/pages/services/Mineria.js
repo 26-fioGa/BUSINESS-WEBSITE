@@ -3,8 +3,8 @@ import Navbar from '../../components/Navbar.js'
 import Footer from '../../components/Footer.js'
 import '../../css/mineria.css'
 import mineriaFondo from '../../images/mineriaFondo.png'
-import mineriaService from '../../images/mineriaService.png'
-import mineriaService2 from '../../images/mineriaService2.png'
+import plantaMinera from '../../images/plantaMinera.png'
+import campaMinero from '../../images/campaMinero.png'
 
 
 const Mineria = () => {
@@ -22,7 +22,37 @@ const Mineria = () => {
                         <h1>MINERÍA</h1>
                     </div>
                 </div>
-                <div className="container-fluid pb-5 pt-5">
+                <div class="container-fluid pb-5 pt-5">
+                    <div className="row ml-3 mr-3 pl-2 pr-2">
+                        <div className="col-lg-12">
+                            <p>Realizamos diversos proyectos de ingeniería con enfoque hacia plantas y campamentos mineros, para etapas de surgimiento, modificación o ampliación.
+                            Puede encontrar mayor especificación en los elementos siguientes:</p>
+                            <hr />
+                        </div>
+                    </div>
+                    <div className="row ml-3 mr-3 pl-2 pr-2">
+                        <div className="col-lg-6 text-left pb-4 pt-4 services">
+                            <div class="card text-white">
+                                <img class="card-img" src={plantaMinera} alt="Card image"/>
+                                <div class="card-img-overlay text-center">
+                                    <h5 class="card-title">Proyectos de ingeniería para plantas mineras</h5>
+                                    <a href="/mineria" className="btn btn-primary">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-6 text-left pt-4 pt-4 services">
+                            <div class="card text-white">
+                                <img class="card-img" src={campaMinero} alt="Card image"/>
+                                <div class="card-img-overlay text-center">
+                                    <h5 class="card-title">Proyectos de ingeniería para campamentos mineros</h5>
+                                    <a href="/mineria" className="btn btn-primary">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+
+                </div>
+                {/* <div className="container-fluid pb-5 pt-5">
                     <div className="row ml-3 mr-3 pl-2 pr-2">
                         <div className="col-lg-6 text-left pt-2 pl-4 pr-4 services">
                             <p>Servicios de mantenimiento o mejora de infraestructura para diversos proyectos o campamentos mineros, tales como:</p>
@@ -49,7 +79,7 @@ const Mineria = () => {
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
             <Footer />
         </>
