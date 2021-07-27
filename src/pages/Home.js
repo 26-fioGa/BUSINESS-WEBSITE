@@ -30,7 +30,7 @@ const Home = () => {
                     <div className="row">
                         <div className="col-lg-6 d-none d-md-block">
                             <img className="home2" src={home2} alt="" />
-                            <img className="home1" src={home1} alt="" />
+                            <img className="home1" src={home1} alt="" /> 
                         </div>
                         <div className="col-lg-6 text-right">
                             <div className="titulo">

@@ -28,7 +28,8 @@
 }
 
 #inmobiliaria .note {
-    background: #193559;
+    background: rgb(25, 53, 89);
+    background: linear-gradient(56deg, rgba(25, 53, 89, 1) 0%, rgba(25, 53, 89, 1) 9%, rgba(160, 178, 193, 1) 100%);
     color: #fff;
 }
 
@@ -50,6 +51,16 @@
     color: #fff;
     font-weight: 500;
     transform: translateY(-2px);
+}
+
+.galeria .modal-content,
+.galeria .modal-content button {
+    background: #193559;
+    color: #fff;
+}
+
+.galeria img {
+    margin: auto !important;
 }
 
 @media only screen and (min-width: 200px) {

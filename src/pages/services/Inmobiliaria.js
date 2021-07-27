@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from '../../components/Navbar.js'
 import Footer from '../../components/Footer.js'
+import plano1 from '../../images/plano1.png'
+import plano2 from '../../images/plano2.png'
 import InmoFondo from '../../images/inmobiliariaFondo.png'
 import '../../css/inmobiliaria.css'
 
@@ -8,25 +10,41 @@ const Inmobiliaria = () => {
     return (
         <>
             <Navbar />
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
+            {/* Modal */}
+            <div class="modal fade bd-example-modal-lg galeria" id="galeria" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                     <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        ...
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Galería</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div id="carouselExample" className="carousel slide" data-ride="carousel">
+                                <div className="carousel-inner">
+                                    <div className="carousel-item active">
+                                        <img className="d-block" src={plano1} alt="First slide"/>
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img className="d-block" src={plano2} alt="Second slide"/>
+                                    </div>
+                                </div>
+                                <a className="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span className="sr-only">Previous</span>
+                                </a>
+                                <a className="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span className="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            {/* End Modal */}
+            
             <div id="inmobiliaria">
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
@@ -59,7 +77,7 @@ const Inmobiliaria = () => {
                             </ul>
                         </div>
                         <div className="col-lg-4 p-3 text-center">
-                            <button className="btn btn-primary"  data-toggle="modal" data-target="#exampleModal">Ver galería</button>
+                            <button className="btn btn-primary"  data-toggle="modal" data-target="#galeria">Ver galería</button>
                         </div>
                     </div>
                     <div className="row">

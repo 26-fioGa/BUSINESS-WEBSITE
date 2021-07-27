@@ -32,6 +32,7 @@
 }
 
 #footer .links li a {
+    font-size: 0.8rem;
     color: #193559 !important;
     text-decoration: none;
 }
@@ -42,5 +43,5 @@
 
 #footer #close {
     height: 5vh;
-    background-color: #193559;
+    background-color: #B2C3D0;
 }
