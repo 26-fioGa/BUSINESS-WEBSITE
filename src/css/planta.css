@@ -28,11 +28,26 @@
     color: #fff;
 }
 
+#planta .col-lg-12 {
+    border-bottom: 1px solid #E5E5E5;
+    border-left: 1px solid #E5E5E5;
+}
+
+#planta .col-lg-12 {
+    border-bottom: 1px solid #E5E5E5;
+    border-left: 1px solid #E5E5E5;
+}
+
 @media only screen and (min-width: 200px) {
     #planta .carousel-caption h1 {
         letter-spacing: 0.5rem;
         font-weight: 400;
         font-size: 1.5rem;
+    }
+    #planta p,
+    li {
+        font-size: 0.7rem;
+        line-height: 1.2rem;
     }
     #planta .note h6 {
         font-size: 0.9rem;
@@ -48,6 +63,10 @@
         font-weight: 500;
         font-size: 1.8rem;
     }
+    #planta p,
+    li {
+        font-size: 0.8rem;
+    }
     #planta .note h6 {
         font-size: 1.2rem;
     }
@@ -61,6 +80,11 @@
         letter-spacing: 1.5rem;
         font-weight: 600;
         font-size: 2.8rem;
+    }
+    #planta p,
+    li {
+        font-size: 1rem;
+        line-height: 1.7rem;
     }
     #planta .note h6 {
         font-size: 1.6rem;
