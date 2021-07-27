@@ -21,3 +21,51 @@
 #planta .carousel-caption {
     z-index: 100 !important;
 }
+
+#planta .note {
+    background: rgb(25, 53, 89);
+    background: linear-gradient(56deg, rgba(25, 53, 89, 1) 0%, rgba(25, 53, 89, 1) 9%, rgba(160, 178, 193, 1) 100%);
+    color: #fff;
+}
+
+@media only screen and (min-width: 200px) {
+    #planta .carousel-caption h1 {
+        letter-spacing: 0.5rem;
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+    #planta .note h6 {
+        font-size: 0.9rem;
+    }
+    #planta .note p {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 520px) {
+    #planta .carousel-caption h1 {
+        letter-spacing: 0.8rem;
+        font-weight: 500;
+        font-size: 1.8rem;
+    }
+    #planta .note h6 {
+        font-size: 1.2rem;
+    }
+    #planta .note p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    #planta .carousel-caption h1 {
+        letter-spacing: 1.5rem;
+        font-weight: 600;
+        font-size: 2.8rem;
+    }
+    #planta .note h6 {
+        font-size: 1.6rem;
+    }
+    #planta .note p {
+        font-size: 1.5rem;
+    }
+}

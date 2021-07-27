@@ -35,7 +35,7 @@
 }
 
 #servicios .card {
-    background: #193559;
+    background: #536B86;
     color: #fff;
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.6);
     border-radius: 15px;
@@ -60,8 +60,8 @@
 }
 
 #servicios .card a:hover {
-    background: #5f8cb4;
-    border-color: #5f8cb4;
+    background: #193559;
+    border-color: #193559;
     color: #fff;
     font-weight: 500;
     transform: translateY(-2px);

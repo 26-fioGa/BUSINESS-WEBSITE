@@ -1,0 +1,71 @@
+#campamento {
+    font-family: 'Montserrat';
+}
+
+#campamento .carouselImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#campamento .carousel-inner::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 50 !important;
+    background: rgba(25, 59, 89, 0.4);
+}
+
+#campamento .carousel-caption {
+    z-index: 100 !important;
+}
+
+#campamento .note {
+    background: rgb(25, 53, 89);
+    background: linear-gradient(56deg, rgba(25, 53, 89, 1) 0%, rgba(25, 53, 89, 1) 9%, rgba(160, 178, 193, 1) 100%);
+    color: #fff;
+}
+
+@media only screen and (min-width: 200px) {
+    #campamento .carousel-caption h1 {
+        letter-spacing: 0.5rem;
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+    #campamento .note h6 {
+        font-size: 0.9rem;
+    }
+    #campamento .note p {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 520px) {
+    #campamento .carousel-caption h1 {
+        letter-spacing: 0.8rem;
+        font-weight: 500;
+        font-size: 1.8rem;
+    }
+    #campamento .note h6 {
+        font-size: 1.2rem;
+    }
+    #campamento .note p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    #campamento .carousel-caption h1 {
+        letter-spacing: 1.5rem;
+        font-weight: 600;
+        font-size: 2.8rem;
+    }
+    #campamento .note h6 {
+        font-size: 1.6rem;
+    }
+    #campamento .note p {
+        font-size: 1.5rem;
+    }
+}

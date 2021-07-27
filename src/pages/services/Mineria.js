@@ -25,7 +25,7 @@ const Mineria = () => {
                 <div class="container-fluid pb-5 pt-5">
                     <div className="row ml-3 mr-3 pl-2 pr-2">
                         <div className="col-lg-12">
-                            <p>Realizamos diversos proyectos de ingeniería con enfoque hacia plantas y campamentos mineros, para etapas de surgimiento, modificación o ampliación.
+                            <p>Realizamos diversos proyectos de ingeniería con enfoque hacia campamentos y plantas mineras, para etapas de surgimiento, modificación o ampliación.
                             Puede encontrar mayor especificación en los elementos siguientes:</p>
                             <hr />
                         </div>
@@ -35,7 +35,7 @@ const Mineria = () => {
                             <div class="card text-white">
                                 <img class="card-img" src={plantaMinera} alt="Card image"/>
                                 <div class="card-img-overlay text-center">
-                                    <h5 class="card-title">Proyectos de ingeniería para plantas mineras</h5>
+                                    <h5 class="card-title">PLANTAS MINERAS</h5>
                                     <a href="/planta" className="btn btn-primary">Ver más</a>
                                 </div>
                             </div>
@@ -44,7 +44,7 @@ const Mineria = () => {
                             <div class="card text-white">
                                 <img class="card-img" src={campaMinero} alt="Card image"/>
                                 <div class="card-img-overlay text-center">
-                                    <h5 class="card-title">Proyectos de ingeniería para campamentos mineros</h5>
+                                    <h5 class="card-title">CAMPAMENTOS MINEROS</h5>
                                     <a href="/campamento" className="btn btn-primary">Ver más</a>
                                 </div>
                             </div>

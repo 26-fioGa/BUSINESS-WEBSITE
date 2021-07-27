@@ -61,7 +61,7 @@ const Inmobiliaria = () => {
                         <div className="col-lg-8">
                             <p>PROYINTER inmobiliaria se enfoca en promover y administrar proyectos de ingeniería en cuanto a infraestructura, tales como:</p>
                             <br />
-                            <p>Elaboración de diseños nuevos para condominios, departamentos, casas, etc. Así como también ampliación, modificación o remodelación de vivienda.</p>
+                            <p>Elaboración de diseños nuevos para condominios, departamentos, casas, etc. Así como también ampliación, modificación o remodelación de cualquier edificación.</p>
                             <ul>
                                 <li>Planos civiles</li>
                                 <li>Planos arquitectónicos</li>
