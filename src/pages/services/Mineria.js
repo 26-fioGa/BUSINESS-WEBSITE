@@ -25,7 +25,7 @@ const Mineria = () => {
                 <div class="container-fluid pb-5 pt-5">
                     <div className="row ml-3 mr-3 pl-2 pr-2">
                         <div className="col-lg-12">
-                            <p>Realizamos diversos proyectos de ingeniería con enfoque hacia campamentos y plantas mineras, para etapas de surgimiento, modificación o ampliación.
+                            <p>PROYINTER minería se enfoca en promocionar y suministrar proyectos de ingeniería para campamentos y plantas mineras.
                             Puede encontrar mayor especificación en los elementos siguientes:</p>
                             <hr />
                         </div>

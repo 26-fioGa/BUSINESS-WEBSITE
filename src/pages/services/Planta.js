@@ -22,21 +22,17 @@ const Planta = () => {
                 <div class="container-fluid pt-5">
                     <div className="row ml-3 mr-3 pl-2 pr-2 pb-3">
                         <div className="col-lg-12">
-                            <p>PROYINTER inmobiliaria se enfoca en promover y administrar proyectos de ingeniería en cuanto a infraestructura, tales como:</p>
-                            <br />
-                            <p>Elaboración de diseños nuevos para condominios, departamentos, casas, etc. Así como también ampliación, modificación o remodelación de cualquier edificación.</p>
+                            <p>Desarrollo de proyectos multidisciplinarios y soluciones para plantas de procesos en el sector minero. <br />Ingeniería para creación, ampliación o modificación de proyectos de plantas mineras.</p>
                             <ul>
-                                <li>Planos civiles</li>
-                                <li>Planos arquitectónicos</li>
-                                <li>Ampliaciones y remodelaciones en edificaciones</li>
-                                <li>Animación 3D</li>
-                                <li>Diseño de interiores
-                                    <ul>
-                                        <li>Acabados</li>
-                                        <li>Diseños</li>
-                                    </ul>
-                                </li>
+                                <li>Identificación de proyecto</li>
+                                <li>Preparación de proyecto</li>
+                                <li>Evaluación de proyecto</li>
+                                <li>Gestión de proyecto</li>
                             </ul>
+                            <div className="plus p-2 m-3 text-center">
+                                <p><b>EXTRA</b></p>
+                                <p>Integración de ingeniería y suministros para proyectos.</p>
+                            </div>
                         </div>
                     </div>
                     <div className="row">
