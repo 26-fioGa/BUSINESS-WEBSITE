@@ -24,10 +24,10 @@ const Inmobiliaria = () => {
                             <div id="carouselExample" className="carousel slide" data-ride="carousel">
                                 <div className="carousel-inner">
                                     <div className="carousel-item active">
-                                        <img className="d-block" src={plano1} alt="First slide"/>
+                                        <img className="d-block w-50" src={plano1} alt="First slide"/>
                                     </div>
                                     <div className="carousel-item">
-                                        <img className="d-block" src={plano2} alt="Second slide"/>
+                                        <img className="d-block w-75" src={plano2} alt="Second slide"/>
                                     </div>
                                 </div>
                                 <a className="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
