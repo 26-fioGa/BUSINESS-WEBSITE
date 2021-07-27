@@ -36,7 +36,7 @@ const Mineria = () => {
                                 <img class="card-img" src={plantaMinera} alt="Card image"/>
                                 <div class="card-img-overlay text-center">
                                     <h5 class="card-title">Proyectos de ingeniería para plantas mineras</h5>
-                                    <a href="/mineria" className="btn btn-primary">Ver más</a>
+                                    <a href="/planta" className="btn btn-primary">Ver más</a>
                                 </div>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ const Mineria = () => {
                                 <img class="card-img" src={campaMinero} alt="Card image"/>
                                 <div class="card-img-overlay text-center">
                                     <h5 class="card-title">Proyectos de ingeniería para campamentos mineros</h5>
-                                    <a href="/mineria" className="btn btn-primary">Ver más</a>
+                                    <a href="/campamento" className="btn btn-primary">Ver más</a>
                                 </div>
                             </div>
                         </div>

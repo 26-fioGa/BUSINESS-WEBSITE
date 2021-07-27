@@ -22,11 +22,52 @@
     z-index: 100 !important;
 }
 
+#inmobiliaria .col-lg-8 {
+    border-bottom: 1px solid #E5E5E5;
+    border-left: 1px solid #E5E5E5;
+}
+
+#inmobiliaria .note {
+    background: #193559;
+    color: #fff;
+}
+
+#inmobiliaria .col-lg-4 {
+    margin: auto !important;
+}
+
+#inmobiliaria .col-lg-4 button {
+    background: #193559;
+    color: #fff;
+    border-color: #193559;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+#inmobiliaria .col-lg-4 button:hover {
+    background: #5f8cb4;
+    border-color: #5f8cb4;
+    color: #fff;
+    font-weight: 500;
+    transform: translateY(-2px);
+}
+
 @media only screen and (min-width: 200px) {
     #inmobiliaria .carousel-caption h1 {
         letter-spacing: 0.5rem;
         font-weight: 400;
         font-size: 1.5rem;
+    }
+    #inmobiliaria p,
+    li {
+        font-size: 0.7rem;
+        line-height: 1.2rem;
+    }
+    #inmobiliaria .note h6 {
+        font-size: 0.9rem;
+    }
+    #inmobiliaria .note p {
+        font-size: 0.8rem;
     }
 }
 
@@ -36,6 +77,16 @@
         font-weight: 500;
         font-size: 1.8rem;
     }
+    #inmobiliaria p,
+    li {
+        font-size: 0.8rem;
+    }
+    #inmobiliaria .note h6 {
+        font-size: 1.2rem;
+    }
+    #inmobiliaria .note p {
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (min-width: 720px) {
@@ -43,5 +94,16 @@
         letter-spacing: 1.8rem;
         font-weight: 600;
         font-size: 2.8rem;
+    }
+    #inmobiliaria p,
+    li {
+        font-size: 1rem;
+        line-height: 1.7rem;
+    }
+    #inmobiliaria .note h6 {
+        font-size: 1.6rem;
+    }
+    #inmobiliaria .note p {
+        font-size: 1.5rem;
     }
 }
