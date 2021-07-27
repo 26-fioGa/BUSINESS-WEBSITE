@@ -24,10 +24,9 @@ const Campamento = () => {
                         <div className="col-lg-12">
                             <p>Ingeniería y gestión de proyectos, planificación y diseño en función a las necesidades del propósito. <br />Soluciones como creación, ampliación o modificación de proyectos para campamentos mineros.</p>
                             <ul>
-                                <li>Identificación de proyecto</li>
-                                <li>Preparación de proyecto</li>
-                                <li>Evaluación de proyecto</li>
-                                <li>Gestión de proyecto</li>
+                                <li>Evaluación de alternativas de diseño</li>
+                                <li>Diseño y estudios a nivel conceptual y de factibilidad</li>
+                                <li>Informe para ampliación o modificación</li>
                             </ul>
                             <div className="plus p-2 m-3 text-center">
                                 <p><b>EXTRA</b></p>
