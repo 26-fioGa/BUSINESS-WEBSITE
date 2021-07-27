@@ -2,10 +2,23 @@ import React from 'react'
 import '../css/contacto.css'
 import credentials from '../credentials/credentials.js'
 import Map from '../components/Map'
+import emailjs from 'emailjs-com';
 
 const mapURL = `https://maps.googleapis.com/maps/api/js?v=3.exp&key=${credentials.mapsKey}`
 
 const Contacto = () => {
+    function sendEmail(e) {
+        e.preventDefault();
+
+        emailjs.sendForm('service_ym14awh', 'template_jmhn0n3', e.target, 'user_HuaaZKrrL3CavoCy8t2eW')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset();
+        alert('Mensaje enviado. ¡Gracias por contactarnos!')
+    }
     return (
         <div id="contacto">
             <div className="container-fluid">
@@ -34,26 +47,26 @@ const Contacto = () => {
                     <div className="col-lg-8 mt-3 mb-4 ">
                         <div className="card formulario">
                             <div className="card-body">
-                                <form className="p-3">
+                                <form className="p-3" onSubmit={sendEmail}>
                                     <div className="form-row">
                                         <div className="form-group col-md-6">
-                                            <label for="nombre">Nombre</label>
-                                            <input type="text" className="form-control" id="nombre" placeholder="José Pérez"/>
+                                            <label for="fullName">Nombre</label>
+                                            <input name="fullName" type="text" className="form-control" id="fullName" placeholder="José Pérez"/>
                                         </div>
                                         <div className="form-group col-md-6">
                                             <label for="email">Email</label>
-                                            <input type="email" className="form-control" id="email" placeholder="ejemplo@email.com"/>
+                                            <input name="email" type="email" className="form-control" id="email" placeholder="ejemplo@email.com"/>
                                         </div>
                                     </div>
                                     <div className="form-group">
-                                        <label for="asunto">Asunto</label>
-                                        <input type="text" className="form-control" id="asunto" placeholder="Puede colocar cualquier texto."/>
+                                        <label for="phone">Número de celular</label>
+                                        <input name="phone" type="tel" className="form-control" id="phone" placeholder="999999999"/>
                                     </div>
                                     <div className="form-group">
-                                        <label for="mensaje">Mensaje</label>
-                                        <textarea type="text" className="form-control" id="mensaje"/>
+                                        <label for="message">Mensaje</label>
+                                        <textarea name="message" type="text" className="form-control" id="message"/>
                                     </div>
-                                    <button type="submit" className="btn btn-primary">Enviar</button>
+                                    <input type="submit" className="btn btn-primary" value="Enviar"/>
                                 </form>
                             </div>
                         </div>

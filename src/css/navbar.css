@@ -10,6 +10,11 @@
     font-size: 0.8rem;
 }
 
+#navbar .dropdown-item {
+    font-family: 'Montserrat';
+    font-size: 0.8rem;
+}
+
 #navbar .nav .nav-link {
     color: #fff !important;
     font-family: 'Montserrat';
