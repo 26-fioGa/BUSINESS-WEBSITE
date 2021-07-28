@@ -21,11 +21,6 @@
     background: rgba(83, 107, 134, 0.6);
 }
 
-#home .carousel-caption {
-    z-index: 100 !important;
-    transform: translateY(-30%);
-}
-
 #home .carousel-caption .home1 {
     width: 400px;
     height: auto;
@@ -86,6 +81,10 @@
         font-weight: 500;
         letter-spacing: 0.08rem;
     }
+    #home .carousel-caption {
+        z-index: 100 !important;
+        transform: translateY(-33%);
+    }
 }
 
 @media only screen and (min-width: 520px) {
@@ -108,6 +107,10 @@
         color: #193559;
         font-size: 0.7rem;
         font-weight: 500;
+    }
+    #home .carousel-caption {
+        z-index: 100 !important;
+        transform: translateY(-50%);
     }
 }
 
@@ -133,5 +136,9 @@
         color: #193559;
         font-size: 1rem;
         font-weight: 600;
+    }
+    #home .carousel-caption {
+        z-index: 100 !important;
+        transform: translateY(-30%);
     }
 }

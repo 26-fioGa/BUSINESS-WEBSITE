@@ -3,6 +3,7 @@ import '../css/contacto.css'
 import credentials from '../credentials/credentials.js'
 import Map from '../components/Map'
 import emailjs from 'emailjs-com';
+import swal from 'sweetalert';
 
 const mapURL = `https://maps.googleapis.com/maps/api/js?v=3.exp&key=${credentials.mapsKey}`
 
@@ -17,7 +18,12 @@ const Contacto = () => {
             console.log(error.text);
         });
         e.target.reset();
-        alert('Mensaje enviado. ¡Gracias por contactarnos!')
+        swal({
+            title: 'MENSAJE ENVIADO',
+            text: '¡Gracias por contactarnos!',
+            icon: 'success',
+            button: 'Aceptar'
+        })
     }
     return (
         <div id="contacto">
@@ -51,20 +57,20 @@ const Contacto = () => {
                                     <div className="form-row">
                                         <div className="form-group col-md-6">
                                             <label for="fullName">Nombre</label>
-                                            <input name="fullName" type="text" className="form-control" id="fullName" placeholder="José Pérez"/>
+                                            <input name="fullName" type="text" className="form-control" id="fullName" placeholder="José Pérez" required/>
                                         </div>
                                         <div className="form-group col-md-6">
                                             <label for="email">Email</label>
-                                            <input name="email" type="email" className="form-control" id="email" placeholder="ejemplo@email.com"/>
+                                            <input name="email" type="email" className="form-control" id="email" placeholder="ejemplo@email.com" required/>
                                         </div>
                                     </div>
                                     <div className="form-group">
                                         <label for="phone">Número de celular</label>
-                                        <input name="phone" type="tel" className="form-control" id="phone" placeholder="999999999"/>
+                                        <input name="phone" type="tel" className="form-control" id="phone" placeholder="999999999" required/>
                                     </div>
                                     <div className="form-group">
                                         <label for="message">Mensaje</label>
-                                        <textarea name="message" type="text" className="form-control" id="message"/>
+                                        <textarea name="message" type="text" className="form-control" id="message" required/>
                                     </div>
                                     <input type="submit" className="btn btn-primary" value="Enviar"/>
                                 </form>
