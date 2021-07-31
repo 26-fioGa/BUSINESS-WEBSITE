@@ -40,7 +40,6 @@
 
 #nosotros .card p {
     color: #4b4c4d;
-    font-size: 0.9rem;
 }
 
 #nosotros .reference {
@@ -48,4 +47,60 @@
     height: auto;
     filter: drop-shadow(1px 2px 4px #254b7c);
     margin-bottom: 0.5rem;
+}
+
+@media only screen and (min-width: 200px) {
+    #nosotros h2 {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    #nosotros .card h5 {
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    #nosotros .card p {
+        font-size: 0.8rem;
+        line-height: 1.4rem;
+    }
+    #nosotros .row {
+        margin-left: 1px !important;
+        margin-right: 1px !important;
+    }
+}
+
+@media only screen and (min-width: 520px) {
+    #nosotros h2 {
+        font-size: 1.5rem;
+    }
+    #nosotros .card h5 {
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    #nosotros .card p {
+        font-size: 0.9rem;
+    }
+    #nosotros .row {
+        margin-left: 1px !important;
+        margin-right: 1px !important;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    #nosotros h2 {
+        font-size: 1.8rem;
+    }
+    #nosotros .card h5 {
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+    #nosotros .card p {
+        font-size: 1rem;
+        line-height: 1.7rem;
+    }
+    #nosotros .row {
+        margin-left: 8px !important;
+        margin-right: 8px !important;
+        padding-left: 4px !important;
+        padding-right: 4px !important;
+    }
 }

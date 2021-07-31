@@ -17,7 +17,7 @@ const Navbar = () => {
                     </li>
                 </nav>
                 <nav className="navbar navbar-expand-lg navbar-light ">
-                    <a className="navbar-brand pl-3" href="#home"><img src={logo} alt="logo" /></a>
+                    <a className="navbar-brand pl-3" href="https://proyinter.herokuapp.com/#home"><img src={logo} alt="logo" /></a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

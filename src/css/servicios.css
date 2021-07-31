@@ -23,15 +23,10 @@
     padding: 2rem;
     padding-bottom: 3rem;
     padding-top: 3rem;
-    font-size: 0.9rem;
     color: #4b4c4d;
     background: #f2f2f2;
     line-height: 1.6rem;
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.6);
-}
-
-#servicios .card-deck {
-    transform: translateY(-20%);
 }
 
 #servicios .card {
@@ -67,13 +62,51 @@
     transform: translateY(-2px);
 }
 
-@media only screen and (max-width: 725px) {
+@media only screen and (min-width: 200px) {
+    #servicios h2 {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
     #servicios .card-deck {
-        transform: translateY(-10%);
+        transform: translateY(-15%);
+    }
+    #servicios .desc {
+        font-size: 0.9rem;
+        line-height: 1.4rem;
+    }
+    #servicios .row {
+        margin-left: 1px !important;
+        margin-right: 1px !important;
+    }
+    #servicios .card h5 {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 520px) {
+    #servicios h2 {
+        font-size: 1.5rem;
+    }
+    #servicios .desc {
+        font-size: 0.8rem;
+    }
+    #servicios .row {
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    #servicios h2 {
+        font-size: 1.8rem;
+    }
+    #servicios .card-deck {
+        transform: translateY(-20%);
     }
     #servicios .card h5 {
         padding-top: 1rem;
-        font-size: 1rem;
+        font-size: 1.2rem;
+        font-weight: 600;
     }
     #servicios .card img {
         width: 1.5rem;
@@ -83,5 +116,13 @@
         padding: 1.5rem;
         padding-bottom: 3rem;
         padding-top: 3rem;
+        font-size: 1rem;
+        line-height: 1.7rem;
+    }
+    #servicios .row {
+        margin-left: 8px !important;
+        margin-right: 8px !important;
+        padding-left: 2px !important;
+        padding-right: 2px !important;
     }
 }
